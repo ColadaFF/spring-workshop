@@ -1,0 +1,6 @@
+create table KEYS (
+    ID VARCHAR(50) PRIMARY KEY,
+    KEY_NAME VARCHAR(50),
+    KEY_VALUE VARCHAR(50)
+);
+
