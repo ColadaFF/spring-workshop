@@ -6,6 +6,9 @@ database:
   username: sa
   password: password
 
+defaults:
+  cron-rate: 1000
+
 spring:
   profiles:
     active:

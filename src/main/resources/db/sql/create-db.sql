@@ -4,3 +4,9 @@ create table KEYS (
     KEY_VALUE VARCHAR(50)
 );
 
+
+create table PARAMETERS(
+    PARAM_KEY VARCHAR(50) PRIMARY KEY,
+    PARAM_VALUE VARCHAR(50)
+)
+

@@ -13,6 +13,8 @@ import java.util.List;
 @Repository
 public class KeysRepository {
 
+    //
+
     private final JdbcTemplate jdbcTemplate;
 
     @Autowired
@@ -21,6 +23,7 @@ public class KeysRepository {
     }
 
     public List<Key> findAllKeys() {
+
         return jdbcTemplate.query("SELECT * FROM KEYS", new RowMapper<Key>() {
             @Override
             public Key mapRow(ResultSet resultSet, int i) throws SQLException {
